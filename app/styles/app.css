@@ -36,3 +36,14 @@ a {
   text-shadow: 2px 2px 4px white;
   font-size: 20px;
 }
+
+img {
+  height: 50%;
+  width: 50%;
+}
+
+#intro {
+  margin-top: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+}
