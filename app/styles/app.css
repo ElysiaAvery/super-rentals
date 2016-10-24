@@ -1,3 +1,38 @@
 body {
-  color: red;
+  background-image: url('/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 17px;
+}
+
+.jumbotron h1 {
+  color: #1381BD;
+  text-align: center;
+  text-shadow: 2px 2px 4px white;
+  font-family: 'Montez', cursive;
+  font-size: 100px;
+}
+
+.jumbotron {
+background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+a {
+  text-shadow: 2px 2px 4px white;
+  font-size: 20px;
 }

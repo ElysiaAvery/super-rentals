@@ -11,8 +11,8 @@
       {{announcement.otherNews}}
     </li>
   {{else}}
-    <button {{action 'announcementsShow'}}>Show Announcements</button>
+    <button class="btn btn-primary"{{action 'announcementsShow'}}>Show Announcements</button>
   {{/if}}
-  <button {{action 'announcementsHide'}}>Hide Announcements</button>
-  <button {{action 'delete' announcement}}>Delete Announcement</button>
+  <button class="btn btn-warning"{{action 'announcementsHide'}}>Hide Announcements</button>
+  <button class="btn btn-danger"{{action 'delete' announcement}}>Delete Announcement</button>
 </ul>
