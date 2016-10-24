@@ -1,0 +1,18 @@
+<ul>
+  {{#if isAnnouncementsShowing }}
+    <p src={{announcement}} alt={{announcement.type}}></p>
+    <li>Upcoming Sales:
+      {{announcement.upcomingSales}}
+    </li>
+    <li>Weather Warning:
+      {{announcement.weatherWarnings}}
+    </li>
+    <li>Other News:
+      {{announcement.otherNews}}
+    </li>
+  {{else}}
+    <button {{action 'announcementsShow'}}>Show Announcements</button>
+  {{/if}}
+  <button {{action 'announcementsHide'}}>Hide Announcements</button>
+  <button {{action 'delete' announcement}}>Delete Announcement</button>
+</ul>
