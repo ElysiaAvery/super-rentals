@@ -16,10 +16,19 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-  }], 
- "announcements": [{
+  }],
+  "announcements": [{
     "upcomingSales": "At WeatherWonder Emporium, umbrellas are on sale",
     "weatherWarnings": "Portland is expecting rain RAIN RAIN",
     "otherNews": "Trump fell down a well, and no one cared!"
+  }],
+  "reviews": [{
+    "author": "Andrea",
+    "rating": 4,
+    "content": "Did not fall down."
+  }, {
+    "author": "Alex",
+    "rating": 9,
+    "content": "Nice view of the volcano!"
   }]
 }
