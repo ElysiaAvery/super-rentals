@@ -1,7 +1,7 @@
 # Super-rentals
+Made by: Elysia Nason
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A vacation rental website. Users can add reviews, add new listings, delete listings or edit listings.
 
 ## Prerequisites
 
